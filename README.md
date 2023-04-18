@@ -45,7 +45,7 @@ Before using this script, your environment should consist of the following:
     --refreshFlexImage        When specified, the script will try to pull the latest image from Docker hub (this requires a predefined Azure Container Registry)
     --aksClusterName          Name of the existing AKS cluster where Flex will be installed. Use it only when --refreshFlexImage is set
     --aksClusterRgName        Name of the existing Resource Group where the AKS cluster was created. Use it only when --refreshFlexImage is set
-    echo "--acrName                 Name of the existing Azure Container Registry (ACR). Use it only when --refreshFlexImage is set"  
+    --acrName                 Name of the existing Azure Container Registry (ACR). Use it only when --refreshFlexImage is set
     --printRegistrationFile   When specified, the container logs will print the registration.yaml file content. This is useful to register additional replicas without having to share persistent volumes between containers
 
 # Contribution
