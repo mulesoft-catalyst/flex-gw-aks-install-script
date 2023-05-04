@@ -26,10 +26,10 @@ Before using this script, your environment should consist of the following:
 - The script was already copied to your home directory (or any other directory you have access to) on Azure CLI
 
 ## Usage Steps
-1 - Log into Anypoint Platform, navigate to Runtime Manager, Flex Gateway tab, Add Gateway button
-2 - Select Kubernetes option. Copy the organization and token values listed on step 2
-3 - Go to Azure CLI
-4 - Execute the script based on the available flags
+1. Log into Anypoint Platform, navigate to Runtime Manager, Flex Gateway tab, Add Gateway button
+2. Select Kubernetes option. Copy the organization and token values listed on step 2
+3. Go to Azure CLI, upload this script
+4. Execute the script based on the available flags
 
 ## Available Command Flags 
 
